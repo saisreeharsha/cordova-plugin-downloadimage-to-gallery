@@ -10,7 +10,9 @@ Installation
 
 ```
 cordova plugin add https://github.com/saisreeharsha/cordova-plugin-downloadimage-to-gallery
+
 or
+
 cordova plugin add cordova-plugin-downloadimage-to-gallery
 
 ```
