@@ -2,8 +2,6 @@
 
 The cordova plugin for downloading image into android and iphone photos gallery.
 
--Downloads an image from URL to gallery Android/IOS
--(IOS only) Downloads/Moves an image from 'relativeUrl' relative to Library/NoCloud  e.g. "/myimage/logo.png" to gallery IOS
 
 ## Supported platforms
 
@@ -58,7 +56,7 @@ onDeviceReady = function () {
 2.download a local image file:
 *If you have a file inside your app's dataDirectory(/Library/NoCloud/) and the path is /Library/NoCloud/myImages/logo.png, then you can move it to image gallery using the following code snippit
 
-````js
+```js
   document.addEventListener("deviceready",onDeviceReady);
 
   onDeviceReady = function(){
@@ -68,9 +66,9 @@ onDeviceReady = function () {
           alert("error");
       });
   }
-  ```
+```
 
 ## License
 
 [Apache License 2.0](/LICENSE)
-````
+

@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-downloadimage-to-gallery",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "The cordova plugin for downloading image into gallery.",
   "cordova": {
     "id": "cordova-plugin-downloadimage-to-gallery",
@@ -37,6 +37,5 @@
   "bugs": {
     "url": "https://github.com/saisreeharsha/cordova-plugin-downloadimage-to-gallery/issues"
   },
-  "homepage": "https://github.com/saisreeharsha/cordova-plugin-downloadimage-to-gallery#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "homepage": "https://github.com/saisreeharsha/cordova-plugin-downloadimage-to-gallery#readme"
 }
