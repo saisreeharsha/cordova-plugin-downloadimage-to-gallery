@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-downloadimage-to-gallery",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The cordova plugin for downloading image into gallery.",
   "cordova": {
     "id": "cordova-plugin-downloadimage-to-gallery",
@@ -14,10 +14,23 @@
   },
   "keywords": [
     "cordova",
+    "android",
+    "ios",
     "android image downloader to gallery",
+    "ios image downloader to gallery",
     "url image downloader to gallery",
+    "url image downloader to iphone gallery",
+    "url image downloader to ios gallery",
+    "local image downloader to gallery ios",
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "cordova-iOS",
+    "Image",
+    "Downloader",
+    "Gallery",
+    "iOS photos gallery",
+    "image base64 data",
+    "photo directory"
   ],
   "author": "Sai Sree Harsha Dubagunta",
   "license": "Apache 2.0",
