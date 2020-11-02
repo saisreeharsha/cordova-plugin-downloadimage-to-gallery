@@ -2,11 +2,12 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-downloadimage-to-gallery"
-    version="1.0.2">
+    version="1.0.3">
     <name>cordova-plugin-downloadimage-to-gallery</name>
-    <description>The cordova plugin for downloading image into gallery.</description>
+    <description>The cordova plugin for downloading image or base64 encoded data as image into Android(url) and iphone(url and local path) photos gallery.</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,android image downloader to gallery, url image downloader to gallery</keywords>
+    <keywords>cordova,android,ios,android image downloader to gallery, url image downloader to gallery,
+    download,image,image base64 data,photo directory,photos gallery, iOS photos gallery,iphone photos gallery</keywords>
     <repo></repo>
     <issue></issue>
 
@@ -32,6 +33,18 @@
             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
         </config-file>
         <source-file src="src/android/DownloadImageToGallery.java" target-dir="src/com/saisreeharsha/cordova/plugin/DownloadImageToGallery" />
+    </platform>
+
+    <!-- iOS -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="DownloadImageToGallery">
+                <param name="ios-package" value="CDVDownloadImageToGallery" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVDownloadImageToGallery.h" />
+        <source-file src="src/ios/CDVDownloadImageToGallery.m" />
     </platform>
 
 </plugin>
