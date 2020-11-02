@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-downloadimage-to-gallery",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The cordova plugin for downloading image into gallery.",
   "cordova": {
     "id": "cordova-plugin-downloadimage-to-gallery",
