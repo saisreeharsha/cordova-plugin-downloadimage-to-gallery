@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-downloadimage-to-gallery"
-    version="1.0.7">
+    version="1.0.8">
     <name>cordova-plugin-downloadimage-to-gallery</name>
     <description>The cordova plugin for downloading image or base64 encoded data as image into Android(url) and iphone(url and local path) photos gallery.</description>
     <license>Apache 2.0</license>
