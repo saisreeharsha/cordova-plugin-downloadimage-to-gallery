@@ -2,7 +2,6 @@
 #import <Cordova/CDV.h>
 #import <Cordova/CDVPlugin.h>
 #import <Cordova/CDVPluginResult.h>
-#import "CDVImgDownloader.h"
 #import <Photos/Photos.h>
 
 @implementation CDVDownloadImageToGallery
